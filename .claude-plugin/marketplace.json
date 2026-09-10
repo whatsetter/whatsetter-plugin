@@ -1,0 +1,25 @@
+{
+  "name": "whatsetter",
+  "owner": {
+    "name": "WhatSetter",
+    "url": "https://whatsetter.com"
+  },
+  "metadata": {
+    "description": "Official WhatSetter plugin: operate your WhatsApp AI setter workspace from Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "whatsetter",
+      "source": "./",
+      "description": "Work your WhatsApp leads, conversations, bookings and campaigns through the hosted WhatSetter MCP, with anti-ban built in.",
+      "version": "1.0.0",
+      "author": {
+        "name": "WhatSetter"
+      },
+      "homepage": "https://docs.whatsetter.com/developers/mcp/",
+      "license": "MIT",
+      "keywords": ["whatsetter", "whatsapp", "sales", "leads", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}

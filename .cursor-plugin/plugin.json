@@ -1,0 +1,35 @@
+{
+  "name": "whatsetter",
+  "displayName": "WhatSetter",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Work your WhatsApp leads, conversations, bookings and campaigns, with anti-ban built in.",
+  "author": {
+    "name": "WhatSetter",
+    "email": "contact@whatsetter.com"
+  },
+  "homepage": "https://docs.whatsetter.com/developers/mcp/",
+  "repository": "https://github.com/whatsetter/whatsetter-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "whatsetter",
+    "whatsapp",
+    "sales",
+    "leads",
+    "appointment-setting",
+    "crm",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "mcp",
+    "sales",
+    "whatsapp",
+    "whatsetter"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}

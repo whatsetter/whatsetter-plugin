@@ -1,0 +1,14 @@
+{
+  "name": "whatsetter",
+  "description": "Work your WhatsApp leads, conversations, bookings and campaigns through the hosted WhatSetter MCP, with anti-ban built in.",
+  "version": "1.0.0",
+  "author": {
+    "name": "WhatSetter",
+    "url": "https://whatsetter.com"
+  },
+  "homepage": "https://docs.whatsetter.com/developers/mcp/",
+  "repository": "https://github.com/whatsetter/whatsetter-plugin",
+  "license": "MIT",
+  "keywords": ["whatsetter", "whatsetter ai", "whatsetter leads", "whatsetter campaign"],
+  "skills": "./skills/"
+}

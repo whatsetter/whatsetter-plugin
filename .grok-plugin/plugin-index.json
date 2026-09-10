@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "plugins": {
+    "whatsetter": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "whatsetter",
+            "description": "Hosted WhatSetter MCP at https://mcp.whatsetter.com/mcp (Streamable HTTP, OAuth 2.1)"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whatsetter",
+            "description": "Operate a WhatSetter workspace safely: daily briefing, inbox triage, lead import, bookings, campaigns, CRM sync and group analytics, with anti-ban rules and send approval."
+          }
+        ],
+        "commands": [
+          { "name": "briefing", "description": "Read-only briefing: new replies, leads waiting on us, meetings booked, campaign and number health" },
+          { "name": "inbox", "description": "Triage the WhatsApp inbox and draft replies, nothing is sent without approval" },
+          { "name": "import", "description": "Import contacts into a WhatSetter list after a preview" },
+          { "name": "bookings", "description": "Report the meetings booked by the AI setter" },
+          { "name": "campaign", "description": "Show, pause or resume a campaign by name" }
+        ]
+      }
+    }
+  }
+}

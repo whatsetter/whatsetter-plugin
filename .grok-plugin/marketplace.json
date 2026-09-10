@@ -1,0 +1,24 @@
+{
+  "name": "whatsetter",
+  "description": "Official WhatSetter plugin: operate your WhatsApp AI setter workspace from Grok.",
+  "owner": {
+    "name": "WhatSetter",
+    "url": "https://whatsetter.com"
+  },
+  "plugins": [
+    {
+      "name": "whatsetter",
+      "source": "./",
+      "description": "Work your WhatsApp leads, conversations, bookings and campaigns through the hosted WhatSetter MCP, with anti-ban built in.",
+      "version": "1.0.0",
+      "author": {
+        "name": "WhatSetter"
+      },
+      "homepage": "https://docs.whatsetter.com/developers/mcp/",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["whatsetter", "whatsetter ai", "whatsetter leads", "whatsetter campaign"],
+      "domains": ["whatsetter.com", "app.whatsetter.com", "mcp.whatsetter.com"]
+    }
+  ]
+}

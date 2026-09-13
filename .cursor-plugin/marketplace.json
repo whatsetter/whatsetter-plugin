@@ -1,0 +1,18 @@
+{
+  "name": "whatsetter",
+  "owner": {
+    "name": "WhatSetter",
+    "email": "contact@whatsetter.com",
+    "url": "https://whatsetter.com"
+  },
+  "metadata": {
+    "description": "Official WhatSetter plugin for Cursor and Grok Bot: work your WhatsApp leads, inbox, bookings and campaigns over MCP.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "whatsetter",
+      "source": "."
+    }
+  ]
+}

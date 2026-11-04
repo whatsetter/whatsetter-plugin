@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "whatsetter": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -13,15 +13,17 @@
         "skills": [
           {
             "name": "whatsetter",
-            "description": "Operate a WhatSetter workspace safely: daily briefing, inbox triage, lead import, bookings, campaigns, CRM sync and group analytics, with anti-ban rules and send approval."
+            "description": "Operate a WhatSetter workspace safely on WhatsApp, Instagram and Messenger: daily briefing, inbox triage, why an agent said something and how to fix it, lead import, bookings, Instagram results, planning and automations, CRM sync and group analytics, with anti-ban rules and approval before anything goes out."
           }
         ],
         "commands": [
-          { "name": "briefing", "description": "Read-only briefing: new replies, leads waiting on us, meetings booked, campaign and number health" },
-          { "name": "inbox", "description": "Triage the WhatsApp inbox and draft replies, nothing is sent without approval" },
-          { "name": "import", "description": "Import contacts into a WhatSetter list after a preview" },
-          { "name": "bookings", "description": "Report the meetings booked by the AI setter" },
-          { "name": "campaign", "description": "Show, pause or resume a campaign by name" }
+          { "name": "briefing", "description": "Read-only briefing across WhatsApp, Instagram and Messenger: new replies, leads waiting on us, meetings booked, agent and account health" },
+          { "name": "inbox", "description": "Triage the inbox on every channel and draft replies, nothing is sent without approval" },
+          { "name": "why", "description": "Explain why an agent sent a message and propose the smallest fix, changed only with approval" },
+          { "name": "instagram", "description": "Read-only Instagram report: posts that bring views and meetings, automations, planned posts, best times to post" },
+          { "name": "import", "description": "Import contacts into a WhatsApp list after a preview" },
+          { "name": "bookings", "description": "Report the meetings booked by the agents" },
+          { "name": "campaign", "description": "Show, pause or resume an agent by name" }
         ]
       }
     }

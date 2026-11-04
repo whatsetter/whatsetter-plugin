@@ -6,7 +6,7 @@ How this plugin reaches each catalog, and what to redo on every release.
 
 | Surface | How it gets there | Review | Cost per release |
 |---|---|---|---|
-| **Grok Bot → Plugins tab** and **Cursor → Plugins** | One submission of this repo at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish) (the Grok Bot tab is the Cursor Marketplace) | Manual, before listing and on every update | Re-review |
+| **Grok Bot → Plugins tab** and **Cursor → Plugins** | One submission of this repo at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish) (sign in first) or at [x.ai/bot/marketplace/submit-a-plugin](https://x.ai/bot/marketplace/submit-a-plugin): the Grok Bot tab is the Cursor Marketplace. Submit once, never twice (a second submission is a duplicate) | Manual, before listing and on every update. No acknowledgement, no status page; follow-ups only by email to marketplace-publishing@cursor.com | Re-review and re-sync on request |
 | **Grok CLI** (direct install) | `grok plugin marketplace add whatsetter/whatsetter-plugin` reads `.grok-plugin/marketplace.json` from this repo | None | None, tracks `main` |
 | **Claude Code** | `/plugin marketplace add whatsetter/whatsetter-plugin` reads `.claude-plugin/marketplace.json` | None | None, tracks `main` |
 | **xAI official catalog** (Grok CLI marketplace tab) | PR on [xai-org/plugin-marketplace](https://github.com/xai-org/plugin-marketplace), remote source pinned to a commit SHA | Code-owner review | One PR per promoted version |
@@ -31,7 +31,7 @@ How this plugin reaches each catalog, and what to redo on every release.
 
 1. Bump `version` in **all three** manifests (`.cursor-plugin/plugin.json`, `.grok-plugin/plugin.json`, `.claude-plugin/plugin.json`) and in `.grok-plugin/plugin-index.json` / the two `marketplace.json` files.
 2. Add a `CHANGELOG.md` entry.
-3. Commit, push to `main`. Cursor re-reviews the update; Grok CLI and Claude Code users get it on their next update.
+3. Commit, push to `main`. Grok CLI and Claude Code users get it on their next update. A listing in the Cursor Marketplace is pinned to a commit and does not follow `main`: email marketplace-publishing@cursor.com with the repository URL and the new commit to ask for a review and a re-sync (Cursor staff on the forum, 27/10/2026).
 4. If listed in the xAI catalog: open a PR bumping the pinned `sha` (never a branch or tag), then `python3 scripts/generate-plugin-index.py` and `python3 scripts/validate-catalog.py` in their repo.
 
 ## Keep it reviewable

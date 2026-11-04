@@ -1,7 +1,7 @@
 {
   "name": "whatsetter",
-  "description": "Work your WhatsApp leads, conversations, bookings and campaigns through the hosted WhatSetter MCP, with anti-ban built in.",
-  "version": "1.0.0",
+  "description": "Work your WhatsApp, Instagram and Messenger leads, conversations, bookings and agents through the hosted WhatSetter MCP, with anti-ban built in.",
+  "version": "1.1.0",
   "author": {
     "name": "WhatSetter",
     "url": "https://whatsetter.com"
@@ -9,5 +9,6 @@
   "homepage": "https://docs.whatsetter.com/developers/mcp/",
   "repository": "https://github.com/whatsetter/whatsetter-plugin",
   "license": "MIT",
-  "keywords": ["whatsetter", "whatsapp", "sales", "leads", "appointment-setting", "mcp"]
+  "privacyPolicyUrl": "https://whatsetter.com/privacy",
+  "keywords": ["whatsetter", "whatsapp", "instagram", "messenger", "sales", "leads", "appointment-setting", "mcp"]
 }

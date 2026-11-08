@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 (2026-11-08)
+
+- **Pausing or resuming an agent always waits for a yes.** A real test asked to pause "all my agents, now": the agent went straight to `pause_campaign`. The skill now lists the agents by name and waits for a yes to that list, as the README promised.
+
 ## 1.1.0 (2026-11-08)
 
 - **Instagram and Messenger.** The skill and the commands now work the three channels WhatSetter agents talk on: the `channel` filter, the "to do" view (`needs_reply`), how WhatSetter sorted an Instagram or Messenger message (`triage_verdict`), Meta's 24-hour answer window, and the pause a send opens on Instagram and Messenger (WhatsApp keeps the agent answering).

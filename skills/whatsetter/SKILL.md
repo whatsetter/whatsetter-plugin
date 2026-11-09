@@ -36,7 +36,7 @@ In the API an agent is a **campaign** (`campaign_id`). The dashboard says "agent
 
 ## First call of every session
 
-Call `whoami` once. It returns `data.team_id` (the workspace) and `data.key.scopes`. Plan only what those scopes allow: a call without its scope returns `403 insufficient_scope`. A key's scopes can't be changed: name the missing scope and tell the user to create a new key with it in WhatSetter under **Settings → API**, reconnect WhatSetter with that key, then revoke the old one.
+Call `whoami` once. It returns `data.team_id` (the workspace) and `data.key.scopes`. Plan only what those scopes allow: a call without its scope returns `403 insufficient_scope`. A key's scopes can't be changed: name the missing scope and tell the user to create a new key with it in WhatSetter under **Settings → API & MCP**, reconnect WhatSetter with that key, then revoke the old one.
 
 | Scope | Tools |
 |---|---|
@@ -201,7 +201,7 @@ Read-only. Start with `list_groups`, then `get_group` for one group.
 | Code | Meaning | What to do |
 |---|---|---|
 | `401 invalid_api_key` | The key was revoked or is unknown | Ask the user to reconnect WhatSetter with a valid key |
-| `403 insufficient_scope` | The key lacks a scope | Name the scope: the user creates a new key with it in Settings → API and reconnects |
+| `403 insufficient_scope` | The key lacks a scope | Name the scope: the user creates a new key with it in Settings → API & MCP and reconnects |
 | `403 not_in_plan` | The plan doesn't include this part of the API | Say which plan has it (Starter and above for WhatsApp, lists, groups, links, webhooks) |
 | `403 instagram_not_enabled` | Instagram isn't turned on for this workspace | Tell the user; nothing to retry |
 | `409 lead_not_contacted` | This WhatsApp lead was never contacted | Import into a list; the agent makes first contact |

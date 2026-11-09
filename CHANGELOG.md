@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.2 (2026-11-09)
+
+- **Logo**: the current WhatSetter mark (the S of Setter), as on whatsetter.com and in the app since October.
+- The key is created under **Settings → API & MCP**, the menu's real name.
+- Removed `docs/grokbot.dev-entry.md`, a 1.0 draft (23 tools) for a directory entry that has been live since September.
+
 ## 1.1.1 (2026-11-08)
 
 - **Pausing or resuming an agent always waits for a yes.** A real test asked to pause "all my agents, now": the agent went straight to `pause_campaign`. The skill now lists the agents by name and waits for a yes to that list, as the README promised.

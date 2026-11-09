@@ -10,7 +10,7 @@ How this plugin reaches each catalog, and what to redo on every release.
 | **Grok CLI** (direct install) | `grok plugin marketplace add whatsetter/whatsetter-plugin` reads `.grok-plugin/marketplace.json` from this repo | None | None, tracks `main` |
 | **Claude Code** | `/plugin marketplace add whatsetter/whatsetter-plugin` reads `.claude-plugin/marketplace.json` | None | None, tracks `main` |
 | **xAI official catalog** (Grok CLI marketplace tab) | PR on [xai-org/plugin-marketplace](https://github.com/xai-org/plugin-marketplace), remote source pinned to a commit SHA | Code-owner review | One PR per promoted version |
-| **grokbot.dev** (community directory) | PR adding `content/plugins/whatsetter.md` (draft in `docs/grokbot.dev-entry.md`) | Maintainer | None |
+| **grokbot.dev** (community directory) | Entry `content/plugins/whatsetter.md`, live since 2026-09-21 | Maintainer | A PR when a release changes what the plugin does |
 | **Grok Bot Marketplace** (bot templates, x.ai/bot/marketplace) | Build a "WhatSetter" bot on the listed plugin, *Share as template*, public link | Curated by the Grok Bot team | None |
 
 ## Before the first submission

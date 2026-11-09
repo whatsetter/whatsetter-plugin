@@ -30,7 +30,7 @@ Point it at `https://mcp.whatsetter.com/mcp` (Streamable HTTP). OAuth is discove
 
 ## Connect your account
 
-1. In WhatSetter, open **Settings → API** and create a key. Give it only the scopes you need (see below).
+1. In WhatSetter, open **Settings → API & MCP** and create a key. Give it only the scopes you need (see below).
 2. The first time your agent calls a WhatSetter tool, your client opens the **Connect to WhatSetter** page. Paste the key and approve.
 3. That's it. The key is checked live and kept on the WhatSetter server, never in your client: your client only holds a revocable token. Revoking the key in the dashboard cuts access within a minute.
 
